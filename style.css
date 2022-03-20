@@ -1,0 +1,175 @@
+/*Universal Selector */
+* {
+    box-sizing:border-box;
+    border-style:solid;
+    border-width:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+  /* body element for background-color*/
+body {
+    background-color:rgb(0, 0, 22);
+}  
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top:20px;
+    color:rgb(40, 58, 85); 
+    
+
+}
+
+nav ul { 
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+    flex-direction: row;
+    background:#33ff33;
+    padding:10px;
+    border-radius: 12px;
+    border-width:5px;
+    border-color:#ffff;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+a:link{
+    color:#ffff;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#ffff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: none;
+}
+
+
+
+h2 {
+    color:#33ff33;
+    float:right;
+    position: relative;
+    left:-425px;
+    top:-50px;
+    padding:50px;
+    margin:10px;
+    font-size:60px;
+}
+
+
+.story{
+   width:320px;
+   padding:10px;
+   margin:0;
+   font-size:20px;
+   float:right;
+   position: relative;
+   left:-70px;
+   top:70px;
+}
+
+.damien{
+    width:500px;
+    height:500px;
+    border-radius:10px;
+    position:relative;
+    left:400px;
+    top:20px;
+
+}
+
+h3{ 
+    color:#33ff33;
+    text-align: center;
+    font-size: 60px;
+    padding-top:20px;
+
+}
+
+#code{
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+    left:620px;
+    top:-50px;
+
+}
+
+.center{
+    width: 600px;
+    height:500px;
+    border-radius:12px;
+    border:5px solid #33ff33;
+}
+
+#surf {
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+    left:310px;
+    top:-55px;
+
+}
+
+.left{
+    width:500px;
+    height:400px;
+    border-radius:12px;
+    border:5px solid #33ff33;
+}
+
+#calculator {
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+    right:-813px;
+    top:-455px;
+}
+
+.right{ 
+    width:500px;
+    height:400px;
+    border-radius:12px;
+    border:5px solid #33ff33;
+
+}
+
+h4{
+    color:#33ff33;
+    text-align: center;
+    font-size: 60px;
+    padding-top:20px;
+    position: relative;
+    top:-450px;
+
+} 
+
+.contacts ul{
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+    flex-direction: row;
+    background:#33ff33;
+    padding:10px;
+    border-radius: 12px;
+    border-width:5px;
+    border-color: #ffff;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    bottom:500px;
+} 
+
+footer{
+    text-align: center;
+}
