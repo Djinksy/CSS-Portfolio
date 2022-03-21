@@ -5,6 +5,7 @@
     border-style: solid;
     border-width: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -41,19 +42,31 @@ nav ul {
     font-size: 30px;
 }
 
+
+/* nav and contacts links syntax*/
+
 a:link {
     color: rgb(116, 116, 199);
     text-decoration: none;
 }
+
+
+/* nav and contacts links syntax*/
 
 a:visited {
     color: rgb(116, 116, 199);
     text-decoration: none;
 }
 
+
+/* nav and contacts links syntax*/
+
 a:hover {
     text-decoration: underline;
 }
+
+
+/* nav and contacts links syntax*/
 
 a:active {
     text-decoration: none;
@@ -70,10 +83,16 @@ h2 {
     padding-bottom: 10px;
 }
 
+
+/* container for padding and display*/
+
 .top-section {
     padding: 15px;
     display: flex;
 }
+
+
+/* properties about-me box*/
 
 #about-me {
     margin: 20px -60px 10px 300px;
@@ -87,6 +106,9 @@ h2 {
     width: 500px;
 }
 
+
+/* properties for aside image*/
+
 aside img {
     width: 500px;
     position: absolute;
@@ -95,22 +117,49 @@ aside img {
     flex-wrap: wrap;
 }
 
+
+/* heading syntax for work*/
+
+h3 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 20px;
+    color: rgb(40, 58, 85);
+}
+
+
+/* elements for flex display and flex-wrap for work container*/
+
 .work {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* properties for code refactor image and link*/
+
+#refactor {
+    position: relative;
+    margin-right: 0px;
+    margin-left: 90px;
+    width: fit-content;
+    display: inline-block;
+}
+
+
+/* smaller images properties*/
+
+.column {
+    position: relative;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-#refactor {
-    position: relative;
-    right: 50px;
-}
 
-.column {
-    position: relative;
-    flex-flow: column wrap;
-    height: 50%;
-}
+/* properties for text inside of images*/
 
 .img-text {
     position: absolute;
@@ -124,12 +173,8 @@ aside img {
     border-radius: 5px;
 }
 
-h3 {
-    text-align: center;
-    font-size: 60px;
-    padding-top: 20px;
-    color: rgb(40, 58, 85);
-}
+
+/* border properties for image*/
 
 img {
     border-radius: 12px;
@@ -137,7 +182,10 @@ img {
     border-color: rgb(133, 133, 226);
 }
 
-.contacts ul {
+
+/* contacts bar properties*/
+
+#contacts ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -151,6 +199,9 @@ img {
     font-size: 30px;
     position: relative;
 }
+
+
+/* aligning text and color for footer*/
 
 footer {
     text-align: center;
